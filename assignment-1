@@ -1,0 +1,174 @@
+
+
+1. Are the HTML tags and elements the same thing?
+No. HTML elements are defined by a starting tag, may contain some content and a closing tag.
+For example,<h1> </h1> is a HTML element but just <h1> is a starting tag and </h1> is a closing tag.
+
+
+
+2. What are tags and attributes in HTML?
+Tags are the primary component of the HTML that defines how the content will be structured/ formatted, whereas Attributes are used along with the HTML tags to define the characteristics of the element. 
+example, <p align=” center”> Maurya saloni </p>, in this the ‘align’ is the attribute using which we will align the paragraph to show in the center of the view.
+
+
+3. What are void elements in HTML?
+HTML elements which do not have closing tags or do not need to be closed are Void elements.
+example 
+<br/>, <img />, <hr />, etc.
+
+
+
+4. What are HTML Entities?
+   In HTML some characters are reserved like ‘<’, ‘>’, ‘/’, etc. To use these characters in our webpage we need to use the character entities called HTML Entities. Below are a few mapping between the reserved character and its respective entity character to be used.
+
+Character : < > & 
+
+
+5. What are different types of lists in HTML?
+
+   Unordered list
+   . list 1
+
+   ordered list 
+   1.list1 
+   
+   defination list 
+
+   div ele - this is a block level element.
+   span ele- this is an inline level element .
+
+
+6. What is the ‘class’ attribute in HTML? 
+   The class attribute is used to specify the class name for an HTML element. Multiple elements in HTML can have the same class value. Also, it is mainly used to associate the styles written in the stylesheet with the HTML elements.
+
+
+7. What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML elements?
+   Multiple elements in HTML can have the same class value, whereas a value of id attribute of one element cannot be associated with another HTML element.
+
+
+8.What are the various formatting tags in HTML? 
+  HTML has various formatting tags:
+
+  <b> - makes text bold
+  <i> - makes text italic
+  <em> - makes text italic but with added semantics importance
+  <small> - decreases the font size of the text by one unit
+  <sub> - makes the text a subscript
+  <del> - displays as strike out text
+  <mark> - highlights the text
+  <ins> - displays as added text
+
+
+
+9. How is Cell Padding different from Cell Spacing?
+   Cell Spacing is the space or gap between two consecutive cells. Whereas, Cell Padding is the space or gap between the text/ content of the cell and the edge/ border of the cell. Please refer to the above figure example to find the difference.
+
+
+10. How can we club two or more rows or columns into a single row or column in an HTML table?
+    HTML provides two table attributes “rowspan” and “colspan” to make a cell span to multiple rows and columns respectively.
+
+
+
+11. What is the difference between a block-level element and an inline element?
+    inline element are just take up the space that is absolutely necessary for the content and does not start from a new line.
+    exmple :<span>, <a>, <strong>, <img>, <button>, <em>, <select>, <abbr>, <label>, <sub>, <cite>, <abbr>, <script>, <label>, <i>, <input>, <output>, <q>, etc.
+
+
+12. How to create a Hyperlink in HTML?
+    Hyperlink in an HTML page, use the <a> and </a> tags, which are the tags used to define the links. The <a> tag indicates where the hyperlink starts and the </a> tag indicates where it ends.Whatever text gets added inside these tags, will work as a hyperlink. Add the URL for the link in the <a href=” ”>.
+    exmple : <a href="default.asp"><img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;"></a>
+
+
+13. What is the use of an iframe tag?
+    The <iframe> tag specifies an inline frame. An inline frame is used to embed another document within the current HTML document. the Use CSS to style the <iframe>
+    exmple : <iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials"></iframe>
+
+
+14. What is the use of a span tag? Explain with example?
+    The <span> tag is an inline container used to mark up a part of a text, or a part of a document. The <span> tag is easily styled by CSS or manipulated with JavaScript using the class or id attribute. The <span> tag is much like the <div> element, but <div> is a block-level element and <span> is an inline element.
+    exmple :<p>My mother has <span style="color:blue">blue</span> eyes.</p>
+
+
+
+15. How to insert a picture into a background image of a web page?
+    <!DOCTYPE html>
+    <html>
+    <body background="edureka.png">
+    <h1>Welcome to Edureka</h1>
+    <p><a href="https://www.edureka.co">Edureka.co</a></p>
+    </body>
+    </html>
+
+
+16. How are active links different from normal links?
+    Normal links are links which are there on the page and have not been clicked yet. Active links are those links, which have just been clicked at that instant.
+
+
+17. What are the different tags to separate sections of text?
+    There are three tags that can be used to separate the texts:
+    1.<br> tag – Usually <br> tag is used to separate the line of text. It breaks the current line and conveys the flow to the next line.
+    2.<p> tag – This contains the text in the form of a new paragraph.
+    3.<blockquote> tag – It is used to define a large quoted section.
+
+
+
+18. What is SVG?
+    SVG stands for Scalable Vector Graphics
+    SVG is used to define vector-based graphics for the Web
+    SVG defines the graphics in XML format
+    Every element and every attribute in SVG files can be animated
+    SVG is a W3C recommendation
+    SVG integrates with other W3C standards such as the DOM and XSL
+
+
+19. What is difference between HTML and XHTML?
+    HTML : HTML stands for Hypertext Markup Language.
+           It was developed by Tim Berners-Lee.
+	       It was developed in 1991.
+	       It is extended from SGML.	
+	       The format is a document file format.	
+	       All tags and attributes are not necessarily to be in lower or upper case.
+	       While using the attributes it is not necessary to mention quotes.For e.g. <Geeks>. 	
+	       Filename extension used are .html, .htm.	
+
+	XHTML :XHTML stands for Extensible Hypertext Markup Language.
+           It was developed by W3C i.e World Wide Web Consortium.
+           It was released in 2000.
+           It is extended from XML and HTML.
+           The format is a markup language.
+           In this, every tag and attribute should be in lower case.
+           While using the attributes it is mandatory to mention quotes.For e.g. <Geeks=”GFG”>.
+           Filename extension are .xhtml, .xht, .xml.
+
+
+
+20. What are logical and physical tags in HTML?
+    Logical Tags are used in HTML to display the text according to the logical styles.
+    TAG :<strong>	Defines strong text
+         <ins>	Defines inserted text
+         <q>	Defines short quotation 
+         <samp>	Defines sample computer code
+
+   Physical Tags are used in HTML to provide actual physical formatting to the text.
+   TAG : <b>	Defines bold text
+        <big>	Defines big text
+        <i>	Defines italic text
+        <u>	Deprecated. Use styles instead
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
